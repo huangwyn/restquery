@@ -1,4 +1,4 @@
-package com.quintrix.restquery;
+package com.quintrix.restquery.model;
 
 public class Employee {
     String name;

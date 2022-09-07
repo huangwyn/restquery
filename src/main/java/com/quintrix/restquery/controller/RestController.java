@@ -1,13 +1,14 @@
-package com.quintrix.restquery;
+package com.quintrix.restquery.controller;
 
+import com.quintrix.restquery.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-@RestController
-public class TestController {
+@org.springframework.web.bind.annotation.RestController
+public class RestController {
     @Autowired
     RestTemplate restTemplate;
 
