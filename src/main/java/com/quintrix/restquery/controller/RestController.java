@@ -13,9 +13,6 @@ public class RestController {
     @Autowired
     RestService restService;
 
-    @Value("${employee.url}")
-    String URL;
-
     @GetMapping("/employee")
     public List<Employee> getEmployees(){
 
